@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio | Giorgi</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Giorgi</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <a
+            href="assets/Giorgi Giguashvili.pdf"
+            style="text-decoration: none; color: black; font-size: 14px"
+            class="btn"
+            download
+          >
+            Download CV <i class="uil uil-file-alt"></i>
+          </a>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Giorgi</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Experienced Backend developer with a passion for creating
+                visually stunning and user-friendly websites.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#contact" class="btn blue-btn">Hire Me</a>
+              <a
+                href="assets/Giorgi Giguashvili.pdf"
+                class="btn"
+                download
+                style="text-decoration: none; color: black"
+              >
+                Download CV <i class="uil uil-file-alt"></i>
+              </a>
+            </div>
+            <div class="social_icons">
+              <a
+                href="https://www.instagram.com/giorgi_giguashvili239/"
+                style="text-decoration: none; color: black"
+                target="_blank"
+                ><div class="icon"><i class="uil uil-instagram"></i></div
+              ></a>
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+              <a
+                href="https://github.com/Grapsinho"
+                style="text-decoration: none; color: black"
+                target="_blank"
+                ><div class="icon"><i class="uil uil-github-alt"></i></div
+              ></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/avatar_for_me.png" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I'm an aspiring programmer with self-taught skills in HTML,
+                  CSS, Javascript, Git, Python, Django, DRF, and PostgreSQL, as
+                  well as some knowledge of PHP and MySQL. I'm seeking practical
+                  experience and opportunities to grow as a developer. Thank
+                  you!
+                </p>
+                <div class="about-btn" style="margin-top: 1rem">
+                  <a
+                    href="assets/Giorgi Giguashvili.pdf"
+                    class="btn"
+                    download
+                    style="text-decoration: none; color: rgb(255, 255, 255)"
+                  >
+                    Download CV <i class="uil uil-import"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>PHP</span>
+                  <span>Python</span>
+                  <span>Django</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="projects-section" id="projects">
+          <h2>My Major Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <img
+                src="assets/images/ecoomerce_image.png"
+                alt="Project 1 Image"
+              />
+              <div class="project-content">
+                <div style="text-align: left; margin-bottom: 2rem">
+                  <h3>E-COMMERCE WEBSITE</h3>
+                  <p class="description">
+                    I successfully developed my first major project, an
+                    E-commerce Website using Django. This comprehensive project
+                    integrated all my skills, showcasing proficiency in HTML,
+                    CSS, Javascript, Python, Django and database management.
+                  </p>
+                </div>
+
+                <a
+                  href="https://github.com/Grapsinho/E-commerce-Store"
+                  class="btn"
+                  style="text-decoration: none"
+                  target="_blank"
+                >
+                  See Project <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="assets/images/chat_photo.png" alt="Project 2 Image" />
+              <div class="project-content">
+                <div style="text-align: left; margin-bottom: 2rem">
+                  <h3>CHAT APPLICATION</h3>
+                  <p class="description">
+                    I engineered a dynamic chat application using Django,
+                    WebSocket, jQuery, HTML/CSS, showcasing proficiency in web
+                    development and real-time communication technologies.
+                    Versatile and user-centric.
+                  </p>
+                </div>
+
+                <a
+                  href="https://github.com/Grapsinho/ChatApp"
+                  class="btn"
+                  style="text-decoration: none; color: black"
+                  target="_blank"
+                >
+                  See Project <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i> Email:
+                  giguashviligiorgi50@gmail.com
+                </p>
+                <p><i class="uil uil-phone"></i> Tel: +995 597 713 814</p>
+              </div>
+            </div>
+            <div class="col">
+              <form id="contact-form">
+                <input type="text" name="_honey" style="display: none" />
+
+                <input type="hidden" name="_captcha" value="false" />
+
+                <div class="form-control">
+                  <div class="form-inputs">
+                    <input
+                      type="text"
+                      class="input-field"
+                      placeholder="Name"
+                      name="name"
+                      id="name"
+                    />
+                    <input
+                      type="text"
+                      class="input-field"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="text-area">
+                    <textarea
+                      placeholder="Message"
+                      id="message"
+                      name="comments,&nbsp;questions"
+                    ></textarea>
+                  </div>
+                  <div class="form-button">
+                    <button class="btn" type="submit">
+                      Send <i class="uil uil-message"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Giorgi Giguashvili .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <a
+            href="https://www.instagram.com/giorgi_giguashvili239/"
+            style="text-decoration: none; color: black"
+            target="_blank"
+            ><div class="icon"><i class="uil uil-instagram"></i></div
+          ></a>
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <a
+            href="https://github.com/Grapsinho"
+            style="text-decoration: none; color: black"
+            target="_blank"
+            ><div class="icon"><i class="uil uil-github-alt"></i></div
+          ></a>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Giorgi Giguashvili</a>
+            - All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("5vGngd0XntnZHwwwJ"); // Replace with your EmailJS user ID
+      })();
+    </script>
+
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Get form values
+          var name = document.getElementById("name").value;
+          var email = document.getElementById("email").value;
+          var message = document.getElementById("message").value;
+
+          // Send email
+          emailjs
+            .send("service_le2tx49", "template_yhrw6ri", {
+              from_name: name,
+              from_email: email,
+              message: message,
+            })
+            .then(
+              function (response) {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("Your message has been sent!");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("Failed to send the message. Please try again.");
+              }
+            );
+        });
+    </script>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
