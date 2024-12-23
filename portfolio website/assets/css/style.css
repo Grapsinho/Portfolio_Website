@@ -683,4 +683,10 @@ footer {
   .input-field {
     width: 100%;
   }
+
+  .skills-box_cont {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-items: center;
+  }
 }
